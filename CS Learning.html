@@ -28,7 +28,7 @@
                 <!-- row1 -->
                 <div class="flex flex-nowrap text-xs md:text-base">
                     <!-- Computer Science -->
-                    <button onclick="filter('CSAPP','Missing Semester')" class="hover:outline hover:outline-2 hover:outline-lime-800/90 whitespace-nowrap rounded-none px-3 py-1 font-semibold bg-lime-500/20 md:m-1 m-0.5 inline-block text-lime-500">Computer Science</button>
+                    <button onclick="filter('CSAPP','Missing Semester','algo','intro','ATDA')" class="hover:outline hover:outline-2 hover:outline-lime-800/90 whitespace-nowrap rounded-none px-3 py-1 font-semibold bg-lime-500/20 md:m-1 m-0.5 inline-block text-lime-500">Computer Science</button>
                     <!-- Mathematics -->
                     <button onclick="filter('Calculus','Linear Algebra','DM')" class="hover:outline hover:outline-2 hover:outline-lime-800/90 whitespace-nowrap rounded-none px-3 py-1 font-semibold bg-lime-500/20 md:m-1 m-0.5 inline-block text-lime-500">Mathematics</button>
                     <!-- Data Analytics -->
@@ -70,11 +70,11 @@
                 <!-- row3 -->
                 <div class="flex flex-wrap text-xs mt-1 md:text-base">
                     <!-- Completed -->
-                    <button onclick="filter('Calculus','Missing Semester')" class="hover:outline hover:outline-2 hover:outline-pink-500/50 whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-pink-400/10 text-pink-400 md:m-1 m-0.5 h-fit">Completed</button>
+                    <button onclick="filter('Calculus','Missing Semester','algo','intro')" class="hover:outline hover:outline-2 hover:outline-pink-500/50 whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-pink-400/10 text-pink-400 md:m-1 m-0.5 h-fit">Completed</button>
                     <!-- Planned -->
                     <button onclick="filter('os','DM')" class="hover:outline hover:outline-2 hover:outline-cyan-600/60 whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-cyan-400/10 text-cyan-400 md:m-1 m-0.5 h-fit">Planned</button>
                     <!-- in progress -->
-                    <button onclick="filter('pw','Linear Algebra','CSAPP')" class="hover:outline hover:outline-2 hover:outline-emerald-600/60 whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-emerald-400/20 text-emerald-400 md:m-1 m-0.5 h-fit">in progress</button>
+                    <button onclick="filter('pw','Linear Algebra','CSAPP','ATDA')" class="hover:outline hover:outline-2 hover:outline-emerald-600/60 whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-emerald-400/20 text-emerald-400 md:m-1 m-0.5 h-fit">in progress</button>
                 </div>
                 <!-- Tags End -->
 
@@ -284,6 +284,97 @@
                             </div>
                             <!-- Description -->
                             <p class="text-sm md:text-xl text-slate-400 whitespace-pre-wrap">OS from NJU</p>
+                            <!-- Tags -->
+                            <div class="justify-start text-xs md:text-base">
+                                <span class="whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-lime-500/10 m-1 inline-block text-lime-500">Computer Science</span>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                 <!-- algo -->
+                <div id="algo" class="md:w-96 project md:mr-5 md:my-3 my-1 px-0 py-0 bg-[#1b2845c6] rounded-lg">
+                    <div class="mx-auto my-auto">
+                        <div class="mx-10 my-10 rounded-lg h-fit space-y-2 flex flex-col relative">
+                            <div class="flex justify-between">
+                                <div>
+                                    <!-- Title -->
+                                    <p class="md:text-3xl text-lg font-light text-white">hello-algo</p>
+                                    <!-- Link -->
+                                    <p class="text-slate-400 text-nowrap">
+                                        − <a class="underline text-xs md:text-xl text-purple-300/70 hover:text-purple-300" href="https://github.com/krahets/hello-algo" target="_blank">course page </a>
+                                    </p>
+                                </div>
+                                <div class="flex flex-col text-xs md:text-base">
+                                    <!-- Status -->
+                                    <span class="whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-pink-400/10 text-pink-400 md:m-1 m-0.5 h-fit">Completed</span>
+                                    <!-- Date -->
+                                    <span class="whitespace-nowrap rounded-full px-5 py-1 font-semibold text-slate-500 h-fit">2024</span>    
+                                </div>
+                            </div>
+                            <!-- Description -->
+                            <p class="text-sm md:text-xl text-slate-400 whitespace-pre-wrap">an algorithm book in Chinese,using videos and images to teach you algo</p>
+                            <!-- Tags -->
+                            <div class="justify-start text-xs md:text-base">
+                                <span class="whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-lime-500/10 m-1 inline-block text-lime-500">Computer Science</span>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <!-- intro -->
+                <div id="intro" class="md:w-96 project md:mr-5 md:my-3 my-1 px-0 py-0 bg-[#1b2845c6] rounded-lg">
+                    <div class="mx-auto my-auto">
+                        <div class="mx-10 my-10 rounded-lg h-fit space-y-2 flex flex-col relative">
+                            <div class="flex justify-between">
+                                <div>
+                                    <!-- Title -->
+                                    <p class="md:text-3xl text-lg font-light text-white">Crash Course Computer Science</p>
+                                    <!-- Link -->
+                                    <p class="text-slate-400 text-nowrap flex flex-col">
+                                        <a class="underline text-xs md:text-xl text-purple-300/70 hover:text-purple-300" href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo" target="_blank">course page-YT</a>
+                                        <a class="underline text-xs md:text-xl text-purple-300/70 hover:text-purple-300" href="https://www.bilibili.com/video/av21376839/" target="_blank">course page-bili</a>
+                                    </p>
+                                </div>
+                                <div class="flex flex-col text-xs md:text-base">
+                                    <!-- Status -->
+                                    <span class="whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-pink-400/10 text-pink-400 md:m-1 m-0.5 h-fit">Completed</span>
+                                    <!-- Date -->
+                                    <span class="whitespace-nowrap rounded-full px-5 py-1 font-semibold text-slate-500 h-fit">2023</span>    
+                                </div>
+                            </div>
+                            <!-- Description -->
+                            <p class="text-sm md:text-xl text-slate-400 whitespace-pre-wrap">an intro for Computer Science,a real good one for beginner</p>
+                            <!-- Tags -->
+                            <div class="justify-start text-xs md:text-base">
+                                <span class="whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-lime-500/10 m-1 inline-block text-lime-500">Computer Science</span>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <!-- ATDA -->
+                <div id="ATDA" class="md:w-96 project md:mr-5 md:my-3 my-1 px-0 py-0 bg-[#1b2845c6] rounded-lg">
+                    <div class="mx-auto my-auto">
+                        <div class="mx-10 my-10 rounded-lg h-fit space-y-2 flex flex-col relative">
+                            <div class="flex justify-between">
+                                <div>
+                                    <!-- Title -->
+                                    <p class="md:text-3xl text-lg font-light text-white">Computer Networking</p>
+                                    <!-- Link -->
+                                    <p class="text-slate-400 text-nowrap">
+                                        <a class="underline text-xs md:text-xl text-purple-300/70 hover:text-purple-300" href="https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click" target="_blank">course page</a>
+                                    </p>
+                                </div>
+                                <div class="flex flex-col text-xs md:text-base">
+                                    <!-- Status -->
+                                    <span class="whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-emerald-400/10 text-emerald-400 h-fit">in progress</span>
+                                    <!-- Date -->
+                                    <span class="whitespace-nowrap rounded-full px-5 py-1 font-semibold text-slate-500 h-fit">2024</span>    
+                                </div>
+                            </div>
+                            <!-- Description -->
+                            <p class="text-sm md:text-xl text-slate-400 whitespace-pre-wrap">by professor 郑烇,based on Computer Networking: A Top-Down Approach</p>
                             <!-- Tags -->
                             <div class="justify-start text-xs md:text-base">
                                 <span class="whitespace-nowrap rounded-full px-3 py-1 font-semibold bg-lime-500/10 m-1 inline-block text-lime-500">Computer Science</span>
